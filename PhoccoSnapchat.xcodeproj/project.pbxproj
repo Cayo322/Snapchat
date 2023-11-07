@@ -9,23 +9,28 @@
 /* Begin PBXBuildFile section */
 		65CA24652AFAFCB100950627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA24642AFAFCB100950627 /* AppDelegate.swift */; };
 		65CA24672AFAFCB100950627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA24662AFAFCB100950627 /* SceneDelegate.swift */; };
-		65CA24692AFAFCB100950627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA24682AFAFCB100950627 /* ViewController.swift */; };
+		65CA24692AFAFCB100950627 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA24682AFAFCB100950627 /* iniciarSesionViewController.swift */; };
 		65CA246C2AFAFCB100950627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CA246A2AFAFCB100950627 /* Main.storyboard */; };
 		65CA246F2AFAFCB100950627 /* PhoccoSnapchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65CA246D2AFAFCB100950627 /* PhoccoSnapchat.xcdatamodeld */; };
 		65CA24712AFAFCB200950627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CA24702AFAFCB200950627 /* Assets.xcassets */; };
 		65CA24742AFAFCB200950627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CA24722AFAFCB200950627 /* LaunchScreen.storyboard */; };
+		65CA247C2AFAFCFD00950627 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65CA247B2AFAFCFD00950627 /* GoogleService-Info.plist */; };
+		65CA247F2AFAFE1100950627 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 65CA247E2AFAFE1100950627 /* FirebaseAnalytics */; };
+		65CA24812AFAFE1100950627 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 65CA24802AFAFE1100950627 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		65CA24832AFAFE1100950627 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 65CA24822AFAFE1100950627 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65CA24612AFAFCB100950627 /* PhoccoSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoccoSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CA24642AFAFCB100950627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65CA24662AFAFCB100950627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65CA24682AFAFCB100950627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65CA24682AFAFCB100950627 /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		65CA246B2AFAFCB100950627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65CA246E2AFAFCB100950627 /* PhoccoSnapchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhoccoSnapchat.xcdatamodel; sourceTree = "<group>"; };
 		65CA24702AFAFCB200950627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65CA24732AFAFCB200950627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65CA24752AFAFCB200950627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CA247B2AFAFCFD00950627 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CA247F2AFAFE1100950627 /* FirebaseAnalytics in Frameworks */,
+				65CA24832AFAFE1100950627 /* FirebaseAuth in Frameworks */,
+				65CA24812AFAFE1100950627 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +66,10 @@
 		65CA24632AFAFCB100950627 /* PhoccoSnapchat */ = {
 			isa = PBXGroup;
 			children = (
+				65CA247B2AFAFCFD00950627 /* GoogleService-Info.plist */,
 				65CA24642AFAFCB100950627 /* AppDelegate.swift */,
 				65CA24662AFAFCB100950627 /* SceneDelegate.swift */,
-				65CA24682AFAFCB100950627 /* ViewController.swift */,
+				65CA24682AFAFCB100950627 /* iniciarSesionViewController.swift */,
 				65CA246A2AFAFCB100950627 /* Main.storyboard */,
 				65CA24702AFAFCB200950627 /* Assets.xcassets */,
 				65CA24722AFAFCB200950627 /* LaunchScreen.storyboard */,
@@ -86,6 +95,11 @@
 			dependencies = (
 			);
 			name = PhoccoSnapchat;
+			packageProductDependencies = (
+				65CA247E2AFAFE1100950627 /* FirebaseAnalytics */,
+				65CA24802AFAFE1100950627 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				65CA24822AFAFE1100950627 /* FirebaseAuth */,
+			);
 			productName = PhoccoSnapchat;
 			productReference = 65CA24612AFAFCB100950627 /* PhoccoSnapchat.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 65CA24582AFAFCB000950627;
+			packageReferences = (
+				65CA247D2AFAFE1100950627 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 65CA24622AFAFCB100950627 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65CA24742AFAFCB200950627 /* LaunchScreen.storyboard in Resources */,
+				65CA247C2AFAFCFD00950627 /* GoogleService-Info.plist in Resources */,
 				65CA24712AFAFCB200950627 /* Assets.xcassets in Resources */,
 				65CA246C2AFAFCB100950627 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CA24692AFAFCB100950627 /* ViewController.swift in Sources */,
+				65CA24692AFAFCB100950627 /* iniciarSesionViewController.swift in Sources */,
 				65CA246F2AFAFCB100950627 /* PhoccoSnapchat.xcdatamodeld in Sources */,
 				65CA24652AFAFCB100950627 /* AppDelegate.swift in Sources */,
 				65CA24672AFAFCB100950627 /* SceneDelegate.swift in Sources */,
@@ -360,6 +378,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65CA247D2AFAFE1100950627 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65CA247E2AFAFE1100950627 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65CA247D2AFAFE1100950627 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		65CA24802AFAFE1100950627 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65CA247D2AFAFE1100950627 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		65CA24822AFAFE1100950627 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65CA247D2AFAFE1100950627 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		65CA246D2AFAFCB100950627 /* PhoccoSnapchat.xcdatamodeld */ = {
